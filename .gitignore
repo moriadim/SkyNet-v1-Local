@@ -1,0 +1,14 @@
+# Ignore sensitive info
+*.log
+*.tmp
+passwords.txt
+secrets/
+
+# Ignore large ISO files or templates (we don't want these on GitHub!)
+*.iso
+*.img
+*.tar.gz
+*.zst
+
+# VMware/Proxmox temp files
+.nfs*
