@@ -73,5 +73,59 @@ To prove the cloud was functional, I installed **Nginx** inside the container.
 ## ⏩ What’s Next? (Phase II: Automation)
 Now that I’ve built this manually, **I’m never doing it again manually.** **Next Goal:** Use **Infrastructure as Code (IaC)**. I will use **OpenTofu/Terraform** and **Ansible** to write code that builds this entire setup automatically in minutes.
 
+
+## 📸 Technical Journey Gallery
+
+<details>
+<summary><b>🛠️ Phase 1: The Installation & Hardening</b></summary>
+
+| Step | Description | Screenshot |
+| :--- | :--- | :--- |
+| **01** | Proxmox ISO Bootloader | ![Boot](images/02-proxmox-boot.png) |
+| **02** | Network & FQDN Setup (`pve.moriaty.lab`) | ![Network](images/07-network-config.png) |
+| **03** | **The Debug:** 401 Unauthorized Error | ![Error](images/11-repo-error-debug.png) |
+| **04** | **The Fix:** Manual Repo Configuration | ![Fix](images/10-repo-fix.png) |
+| **05** | Storage LVM Recognition | ![Storage](images/12-storage-check.png) |
+
+</details>
+
+<details>
+<summary><b>📦 Phase 2: Creating the First Container (LXC)</b></summary>
+
+| Step | Action | Screenshot |
+| :--- | :--- | :--- |
+| **06** | Downloading Ubuntu 24.04 Template | ![Template](images/13-lxc-template.png) |
+| **07** | Resource Allocation (CPU/RAM) | ![Resources](images/17-lxc-resource-config.png) |
+| **08** | Container Network Bridging | ![Bridge](images/18-lxc-network-setup.png) |
+| **09** | **Success:** Task OK! | ![Success](images/19-lxc-creation-task.png) |
+
+</details>
+
+<details>
+<summary><b>🌐 Phase 3: The Final Deployment</b></summary>
+
+### 🏆 The Victory Shot
+Everything is live. The Ubuntu container is running Nginx, and the web server is accessible from the host browser.
+
+![Final Dashboard](images/06-container-dashboard.png)
+*Proxmox Dashboard showing the active `my-ubuntu-web` node.*
+
+![Nginx Live](images/01-nginx-success.png)
+*The final result: Nginx Welcome Page served from the nested cloud.*
+
+</details>
 ---
 > *"The cloud isn't just a place; it's a set of skills. Today, I built the foundation."* 🚀⚡
+---
+
+## 👨‍💻 About the Author
+**Merzougui Abdellah El Ghazali** *Backend Developer | DevOps Enthusiast | Vice President @ ESTIN Cloud Hub (ECH)*
+
+I’m a 2nd-year CS student passionate about low-level systems and infrastructure automation. This project is part of my journey to master the "S" in DevOps—**Systems**. 
+
+* 🌍 **University:** ESTIN (Ecole Supérieure en Sciences et Technologies de l'Informatique et du Numérique)
+* 🛠️ **Focus:** Linux Internals, Infrastructure as Code, and Automated Workflows.
+* 📫 **Connect:** [GitHub Profile](https://github.com/moriadim) | [LinkedIn](YOUR_LINKEDIN_URL_HERE)
+
+---
+*© 2026 Abdellah Merzougui. Built with ☕ and 🐧.*
