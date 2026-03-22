@@ -125,7 +125,7 @@ I’m a 2nd-year CS student passionate about low-level systems and infrastructur
 
 * 🌍 **University:** ESTIN (Ecole Supérieure en Sciences et Technologies de l'Informatique et du Numérique)
 * 🛠️ **Focus:** Linux Internals, Infrastructure as Code, and Automated Workflows.
-* 📫 **Connect:** [GitHub Profile](https://github.com/moriadim) | [LinkedIn](YOUR_LINKEDIN_URL_HERE)
+* 📫 **Connect:** [GitHub Profile](https://github.com/moriadim) | [LinkedIn](https://www.linkedin.com/in/ghazali-abdallah/)
 
 ---
 *© 2026 Abdellah Merzougui. Built with ☕ and 🐧.*
