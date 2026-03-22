@@ -1,11 +1,11 @@
-🚀 SkyNet-v1-Local: My Private Cloud Journey
-Phase I: The Core – From "Nested Virtualization" to a Live Web Server
-📖 The Story
+###🚀 SkyNet-v1-Local: My Private Cloud Journey
+##Phase I: The Core – From "Nested Virtualization" to a Live Web Server
+#📖 The Story
 It’s 3 AM, and while most people are sleeping, I’m deep in the world of Hypervisors. My goal? To take a standard laptop and turn it into a production-ready, single-node private cloud using Proxmox VE 9.1.
 
 Because I wanted a safe "sandbox" to break things without ruining my main OS, I took the "Inception" route: running Proxmox inside VMware Workstation.
 
-🌩️ The "Battle with the BIOS" (The Struggle is Real)
+##🌩️ The "Battle with the BIOS" (The Struggle is Real)
 Before the "Aha!" moments, there were the "Why me?" moments. Setting up Nested Virtualization isn't as simple as checking a box.
 
 I actually had to restart my laptop about 4 times just to get Proxmox to cooperate. Here is what I ran into:
